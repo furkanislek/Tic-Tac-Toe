@@ -109,7 +109,7 @@ function draws() {
   const draw = [];
   square.forEach((part) => draw.push(part.textContent));
   if (!draw.includes("")) {
-    player.textContent = " Draws !";
+    player.textContent = " Love Won This War";
     square.forEach((part) => (part.style.pointerEvents = "none"));
   }
 }

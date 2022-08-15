@@ -14,15 +14,28 @@ body{
     background-color: #FEC260;
 }
 
+input{
+    margin-top: 2rem;
+    font-size: 1.7rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    background-color: #e6cda3;
+    border: 1px solid #5c3a04;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
 h1{
     color: #2A0944;
-    font-size: 3.7rem;
+    font-size: 6rem;
     margin-bottom: 2rem;
 }
 
 h2{
     color: #278071;
-    margin-bottom: 3rem;
+    margin-top: 3rem;
 }
 
 .container {
@@ -38,8 +51,10 @@ h2{
     align-items: center;
     justify-content: center;
     font-size: 3rem;
-    width: 100%;
-    height: 100%;
+    width: 98%;
+    height: 98%;
     border: 1px solid black;
+    border-radius: 5px;
     background-color: #f0c682 ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
